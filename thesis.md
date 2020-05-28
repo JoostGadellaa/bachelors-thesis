@@ -253,10 +253,7 @@ Prior to Chica et al. (2017), little research went into the specific dynamics
 producing these end states, which they showed to be dependent on the payoffs and
 starting distributions. It is difficult to draw expectations from other research because
 little research combines varying degree, structure and payoffs within the same
-simulation, while it could be suspected that these influence each other. This paper
-
-
-might be the first to vary these three factors at the same time. Additionally, a
+simulation, while it could be suspected that these influence each other. This paper might be the first to vary these three factors at the same time. Additionally, a
 graphical user interface (GUI) makes it possible to explore the dynamics in even
 more detail, by observing them in two-dimensional space, making more intuitive
 understanding of observed results possible.
@@ -406,10 +403,7 @@ Because of randomness in the assignment of communities, rewiring of links
 and strategy evaluation, the simulation is non-deterministic. To approach the mean
 value for average total payoffs, every combination is repeated for at least 32
 independent runs. With a very regular desktop PC, this took multiple days of non-
-stop simulations to compute, but with further code optimisation and access to a high
-
-
-performance computing cluster optimised for these kinds of calculations, the time
+stop simulations to compute, but with further code optimisation and access to a high performance computing cluster optimised for these kinds of calculations, the time
 could be a fraction of that.
 
 #### Analysis of the Results
