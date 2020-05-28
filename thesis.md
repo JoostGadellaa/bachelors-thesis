@@ -290,13 +290,17 @@ payoff for the consumer and a small positive payoff for themselves.
 - UC: an untrustworthy consumer, who misuses the asset, e.g., by damaging
 or stealing it, causing damage to the owner and a high payoff for themselves.
 
-Table 1 #TODO
+_Table 1._ Payoffs in the Sharing Economy Trust Game
 
-_Payoffs in the Sharing Economy Trust Game_
+| Providers | Consumers |           |
+| --------- | --------- | --------- |
+|           |  TC       |  UC       |
+| TP        |   R, R    | -20, 40   |
+| UP        |  10, -10  |  10, -10  |
 
 _Note._ When players interact with an agent with the same role (i.e., provider or
 consumer), no transaction takes place, and the added payoff is 0.
-*By definition, the minimum and maximum rewards are 21 and 39 respectively,
+By definition, the minimum and maximum rewards are 21 and 39 respectively,
 because of the game’s definition by Chica et al. (2017)
 
 Different payoffs likely change the evolutionary dynamics via the ‘difficulty’ or
@@ -317,16 +321,7 @@ that simulates evolution. For this, the proportional imitation rule (Helbing, 19
 be used. This update heuristic is in line with the idea of bounded rationality and
 incomplete information for an agent since it considers limited memory, and
 knowledge only about the payoffs of direct network neighbours (Schlag, 1996).
-During the strategy update procedure, an agent will first randomly select a
-
-
-Providers Consumers #TODO
-TC UC
-TP R, R* -20, 40
-UP 10, -10 10, -
-
-
-neighbour to compare their strategy and payoffs during the previous rounds. If the
+During the strategy update procedure, an agent will first randomly select a neighbour to compare their strategy and payoffs during the previous rounds. If the
 selected neighbour had a higher total payoff, the revising agent copies the selected
 agent’s strategy with a certain probability. This probability is equal to the difference
 between their payoffs in the previous 50 games, divided by the maximum
