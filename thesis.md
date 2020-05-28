@@ -1,42 +1,14 @@
 # A Networked Evolutionary Trust Game for the Sharing Economy
 
-Research paper applied economics research course
 
-Academic year: 2018 - 2019
-
-Name: Joost Gadellaa
-
-Student number: 5609704
-
-Supervisors: Joyce Delnoij and Linda Keijzer
-
-Wordcount: 6551
+#### Joost Gadellaa
+#### Utrecht University
+#### Bachelor Thesis
+#### Economics and Business Economics
 
 
 
-##Statement of Originality
-
-I, Joost Gadellaa, student number 5609704, herewith declare to have written this
-document and that I am responsible for the content of it. I declare that the text and
-the work presented in this document is original and that no sources other than those
-mentioned in the text and its references have been used in creating it.
-
-Utrecht University School of Economics is responsible solely for the supervision of
-completion of the work, not for the content.
-
-
-#A Networked Evolutionary Trust Game for the Sharing Economy
-
-
-##Joost Gadellaa
-##Utrecht University
-
-##Bachelor Thesis
-##Economics and Business Economics
-
-
-
-###Abstract
+## Abstract
 
 In the sharing economy, trust is of higher importance than in regular B2C
 interactions because there is no transfer of ownership and transactions sometimes
@@ -55,12 +27,11 @@ considered. The presented findings progress the field of evolutionary game theor
 learning from a specific application. Furthermore, findings also suggest that sharing
 economy platforms could enhance trust by emphasising or creating communities,
 depending on the risk and how clear benefits are to users.
+
 _Keywords_ : sharing economy, trust, evolutionary game theory, agent-based
 modelling, simulation, network structure, community structure
 
-
-
-#A Networked Evolutionary Trust Game for the Sharing Economy
+## A Networked Evolutionary Trust Game for the Sharing Economy
 
 For a long time, ownership was one of the fundamental constructs of
 economics. Although shared consumption is as old as humankind (Belk, 2014), the
@@ -161,10 +132,9 @@ individual is referred to as a ‘player’, while in the context of simulations
 These refer to the same thing. A connection between two nodes is an ‘edge’.
 
 
-```
-Background and Motivation
-```
-**Trust in the Sharing Economy**
+### Background and Motivation
+
+#### Trust in the Sharing Economy
 
 As stated in the introduction, trust is a critical factor for the sharing economy.
 Participants need to be sure that transaction partners do not behave
@@ -195,10 +165,7 @@ introduces the concepts of a player population and player fitness. Fitness in th
 context means the sum of payoffs for an individual received during games. In EGT,
 successful behaviour spreads throughout the population by evolution, which is not
 (necessarily) rational decision making. The evolution rule often entails that players
-with unsuccessful strategies, and therefore a low fitness, die off, and get replaced by
-
-
-players with high fitness. The framework can also be used to simulate learning in an
+with unsuccessful strategies, and therefore a low fitness, die off, and get replaced by players with high fitness. The framework can also be used to simulate learning in an
 unchanging population, as is done in the presented sharing economy model.
 
 An insight from EGT very much applicable to this model, is that when
@@ -214,7 +181,7 @@ the whole population move to a situation of distrust (Abbass, Greenwood, & Petra
 2016). In order to explain how a situation of trust and cooperation can still emerge,
 the topology of the community is considered.
 
-**Structure as a Solution**
+#### Structure as a Solution
 
 As explained above, it has become clear that in zero-dimensional systems,
 where every player can interact with every other player, cooperation does seldom
@@ -258,6 +225,8 @@ ways to quantify network structure to approach these problems as an exact scienc
 Dynamics that occur in PD or SD games cannot be directly translated to the trust
 game that is used as an abstraction for the sharing economy.
 
+More complex game simulations that include the concept of individually placed trust instead of simultaneous cooperation like PD and SD games were carried out by Chica, Chiong, Kirley, & Ishibuchi (2018). They use an N-player trust game, closely resembling a public good game. Their first finding, in line with Abbass et al. (2016), is that strategies of trust never survive in an unstructured population. Since an untrustworthy player can interact with anybody, their distrust will spread quickly. Conversely, sparsely connected structures are better for the promotion of trust via social diversity in smaller clusters, in line with ideas from Santos, Santos, & Pacheco (2008). Both these sources use games with different strategy setups, that seem more dependent on the local neighbourhood than the simpler 2-player trust games used for the sharing economy, still, the idea that sparsely connected clusters increase performance is insightful for our application.
+
 (^2) The existence of nodes that are situated on a lot of all possible shortest paths between nodes
 (^3) Small World networks are a specific type of network structure with a high clustering, but a low
 average path length, as first recognised and described by Watts & Strogatz (1998)
@@ -265,21 +234,7 @@ average path length, as first recognised and described by Watts & Strogatz (1998
 (^5) A regular network with the highest possible clustering for each node, but also an high average path
 length (Watts & Strogatz, 1998)
 
-
-More complex game simulations that include the concept of individually
-placed trust instead of simultaneous cooperation like PD and SD games were carried
-out by Chica, Chiong, Kirley, & Ishibuchi (2018). They use an N-player trust game,
-closely resembling a public good game. Their first finding, in line with Abbass et al.
-(2016), is that strategies of trust never survive in an unstructured population. Since
-an untrustworthy player can interact with anybody, their distrust will spread quickly.
-Conversely, sparsely connected structures are better for the promotion of trust via
-social diversity in smaller clusters, in line with ideas from Santos, Santos, & Pacheco
-(2008). Both these sources use games with different strategy setups, that seem more
-dependent on the local neighbourhood than the simpler 2-player trust games used for
-the sharing economy, still, the idea that sparsely connected clusters increase
-performance is insightful for our application.
-
-**Community Structure**
+#### Community Structure
 
 This research will use community structure as a starting point for variations in
 the network. This idea is found in research from various disciplines, but not often in
@@ -306,7 +261,7 @@ graphical user interface (GUI) makes it possible to explore the dynamics in even
 more detail, by observing them in two-dimensional space, making more intuitive
 understanding of observed results possible.
 
-**The Networked Sharing Economy Model**
+### The Networked Sharing Economy Model
 The influence of the network structure of possible connections will be explored
 using agent-based modelling (ABM), where agents are programmed to behave within
 the framework of Evolutionary Game Theory (EGT). The simulation will run in
@@ -321,7 +276,7 @@ The details of the model as below are described mostly theoretically. Further
 practical and technical details can be found in Appendix 1 and the simulation’s source
 code (available upon request).
 
-**Game Definitions and Payoffs**
+#### Game Definitions and Payoffs
 
 Since this paper builds upon the first application of EGT for the Sharing Economy
 by Chica et al. (2017), the game definitions of the trust game will be the same. This
@@ -335,12 +290,10 @@ player are as follows:
 - UP: an untrusting provider who does not deliver, causing a small negative
 payoff for the consumer and a small positive payoff for themselves.
 - TC: a trustworthy consumer who uses the asset decently.
-
-
 - UC: an untrustworthy consumer, who misuses the asset, e.g., by damaging
 or stealing it, causing damage to the owner and a high payoff for themselves.
 
-Table 1
+Table 1 #TODO
 
 _Payoffs in the Sharing Economy Trust Game_
 
@@ -360,7 +313,7 @@ communication make the game designed by Chica et. al. (2017) different from most
 trust games in the literature, so comparison to other trust games should be done with
 care. Further justification can be found in their paper.
 
-**Strategy Update**
+#### Strategy Update
 
 Agents adjust their strategies simultaneously after 50 games via an algorithm
 that simulates evolution. For this, the proportional imitation rule (Helbing, 1992) will
@@ -369,12 +322,12 @@ incomplete information for an agent since it considers limited memory, and
 knowledge only about the payoffs of direct network neighbours (Schlag, 1996).
 During the strategy update procedure, an agent will first randomly select a
 
-```
-Providers Consumers
+
+Providers Consumers #TODO
 TC UC
 TP R, R* -20, 40
 UP 10, -10 10, -
-```
+
 
 neighbour to compare their strategy and payoffs during the previous rounds. If the
 selected neighbour had a higher total payoff, the revising agent copies the selected
@@ -385,7 +338,7 @@ R and 50 * -20). The arbitrary structure of 50 games before reconsidering the
 strategy will be used for comparability with the trust experiment using EGT by
 Chica et al. (2017).
 
-**Generating the Networks**
+#### Generating the Networks
 
 Although some data is available on network structures of occurred
 transactions on sharing economy platforms (e.g., Teubner 2018), it is of limited use,
@@ -412,7 +365,7 @@ Newman (2002) algorithm.
 _Figure 1._ Example network layouts coloured by community with rewiring probability
 0.04 (left) and 0.4 (right) and average degree 4 (top) and 14 (bottom).
 
-**Experiments and Results**
+### Experiments and Results
 All results were obtained from simulations with a population of 512 agents,
 spread across 16 communities. Preliminary testing and analysis showed that this
 network size is large enough to ensure reasonable robustness and representative
@@ -429,7 +382,7 @@ probability of rewiring edges between 0.01 and 1, creating a continuous range fr
 communities connected to each other with a minimal amount of inter-community
 edges to a completely random network.
 
-**Experimental Setup**
+#### Experimental Setup
 
 For each network, ‘success’ will be measured by summing all the payoffs
 gained during the simulation. A network that sustainably supports cooperation will
@@ -459,7 +412,7 @@ stop simulations to compute, but with further code optimisation and access to a 
 performance computing cluster optimised for these kinds of calculations, the time
 could be a fraction of that.
 
-**Analysis of the Results**
+#### Analysis of the Results
 
 First, some general remarks about the dynamics will be presented.
 Particularly on the ‘balancing effect’ that occurs in this game, presented by Chica et
@@ -468,10 +421,8 @@ and further interpreted by looking at the details of some specific runs. This
 ‘anecdotal’ evidence is difficult to quantify but is in line with the exploratory nature
 of this research.
 
-```
-Remarks on dynamics. The balancing effect seems to be present to a
-```
-certain extent at almost all variable combinations. This general pattern can be
+##### Remarks on dynamics.
+The balancing effect seems to be present to a certain extent at almost all variable combinations. This general pattern can be
 summarised as follows: at first, players with a UC strategy profit from their
 opportunistic behaviour, making their strategy spread. As a ‘response’ to this, UP
 players, a safe and risk-less strategy not affected by UC^6 , become a substantial group
@@ -488,14 +439,7 @@ the network’s sharing economy at all; they are not risking to provide their as
 pick a certain but low payoff. At the micro level, we can see why this is a neutral
 context for TP and TC to spread. TP’s influences are not affected by UP because
 they are both providers, and a TC can on average handle two to four times more
-UC’s than TC’s in order to still have a non-negative payoff. Another important fact
-
-(^6) Throughout this research, players with a certain strategy will be referred to by the name of their
-strategy. Keep in mind, however, that it is not the strategy that evolves, but the players who ‘decide’
-to use a strategy or not, based on its relative success.
-
-
-is that TC and TP’s payoffs are equal after a successful transaction, ensuring one
+UC’s than TC’s in order to still have a non-negative payoff. Another important fact is that TC and TP’s payoffs are equal after a successful transaction, ensuring one
 does not become too much more successful in the network than the other, while in
 ‘hostile’ situations TP has slightly higher average payoffs than TC, spreading slightly
 more quickly, thereby creating a more favourable context for TC.
@@ -518,10 +462,7 @@ enough for them to flourish. This shows that the update rule chosen by Chica et.
 solution for this will be discussed in section V.
 
 In general, community structure, compared to complete randomness and other
-structures (not covered in tables) spread the risk of a run, as a portfolio of different
-
-
-gambles. Even in low payoffs, one community can develop a situation of trust, which
+structures (not covered in tables) spread the risk of a run, as a portfolio of different gambles. Even in low payoffs, one community can develop a situation of trust, which
 will always spread as long as other communities are neutral enough. Neutral in this
 context means having a majority of UP players, which TP and TC do not lead
 significant losses against. Community structure can also protect the network: if one
@@ -539,11 +480,12 @@ corner of each block). The reported numbers are the average payoffs of all agent
 together (in millions), over at least 32 runs, coloured relative to the other results
 with the same reward R (left) or relative to all results (right).
 
+(^6) Throughout this research, players with a certain strategy will be referred to by the name of their
+strategy. Keep in mind, however, that it is not the strategy that evolves, but the players who ‘decide’
+to use a strategy or not, based on its relative success.
 
-```
-Analysis of end states. Observed average payoffs for a specific combination
-```
-of degree D (y-axis) and rewiring P (x-axis), grouped in blocks by reward value
+##### Analysis of end states.
+Observed average payoffs for a specific combination of degree D (y-axis) and rewiring P (x-axis), grouped in blocks by reward value
 (upper-left corner of each block). The reported numbers are the average payoffs of all
 agents together (in millions), over at least 32 runs, coloured relative to the other
 results with the same reward R (left) or relative to all results (right).
@@ -645,16 +587,13 @@ spread. Confirming to dynamics described in the very first paper on small-world
 networks by Watts & Strogatz (1998), signal propagation is quicker on networks
 approaching random networks.
 
-**Concluding Remarks and Future Work**
-This paper built upon the novel evolutionary trust game from Chica et al.
-(2017) by adding the dimension of network structure, specifically average degree and
-connectedness between communities in a community network. It has become clear
-
 (^7) The low payoffs at D = 4 are because of parts of the network disconnecting when rewired, as
 mentioned at the beginning of this section.
 
-
-that the network structure can have substantial effects on the success of a sharing
+### Concluding Remarks and Future Work
+This paper built upon the novel evolutionary trust game from Chica et al.
+(2017) by adding the dimension of network structure, specifically average degree and
+connectedness between communities in a community network. It has become clear that the network structure can have substantial effects on the success of a sharing
 economy network. Additionally, it was found that the rewards in the game do not
 only influence end states, but also influence dynamics and the effect of other
 variables. Clearly, this type of exploration cannot be done with many variables kept
@@ -745,9 +684,9 @@ into a complete representation of both micro- and macroeconomics, creating a for
 of Agent-Based Computational Economics (Tesfatsion, 2002).
 
 
-```
-References
-```
+
+## References
+
 Abbass, H., Greenwood, G., & Petraki, E. (2016). The N-Player Trust Game and its
 Replicator Dynamics. IEEE Transactions on Evolutionary Computation,
 20(3), 470–474. https://doi.org/10.1109/TEVC.2015.2484840
