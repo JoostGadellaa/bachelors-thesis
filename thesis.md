@@ -759,10 +759,7 @@ Through Structural Design: The Isolation of Subgroups and Organizational
 Learning. Organization Science, 21(3), 625–642. https://doi.org/10.1287/orsc.
 1090.0468
 
-
-Fortunato, S. (2010). Community detection in graphs. Physics Reports, 486(3), 75–
-
-174. https://doi.org/10.1016/j.physrep.2009.11.002
+Fortunato, S. (2010). Community detection in graphs. Physics Reports, 486(3), 75–174. https://doi.org/10.1016/j.physrep.2009.11.002
 
 Frey, V., Buskens, V., & Corten, R. (2019). Investments in and returns on network
 embeddedness: An experiment with trust games. Social Networks, 56, 81–92.
@@ -784,15 +781,11 @@ the Eleventh ACM Conference on Recommender Systems, 339–340. https://
 doi.org/10.1145/3109859.3109920
 
 Guimera, R., Danon, L., Diaz-Guilera, A., Giralt, F., & Arenas, A. (2003). Self-
-similar community structure in organisations. Physical Review E, 68(6),
-
-065103. https://doi.org/10.1103/PhysRevE.68.065103
+similar community structure in organisations. Physical Review E, 68(6),065103. https://doi.org/10.1103/PhysRevE.68.065103
 
 Habibi, M. R., Kim, A., & Laroche, M. (2016). From Sharing to Exchange: An
 Extended Framework of Dual Modes of Collaborative Nonownership
-Consumption. Journal of the Association for Consumer Research, 1(2), 277–
-
-294. https://doi.org/10.1086/684685
+Consumption. Journal of the Association for Consumer Research, 1(2), 277–294. https://doi.org/10.1086/684685
 
 Helbing, D. (1992). Interrelations between Stochastic Equations for Systems with
 Pair Interactions. Physica A: Statistical Mechanics and Its Applications,
@@ -800,7 +793,6 @@ Pair Interactions. Physica A: Statistical Mechanics and Its Applications,
 
 Izquierdo, L. R., Izquierdo, S. S., & Sandholm, W. H. (2018). An Introduction to
 ABED: Agent-Based Simulation of Evolutionary Game Dynamics. 58.
-
 
 Izquierdo, L. R., Izquierdo, S. S., & Sandholm, W. H. (in press). Agent-Based
 Evolutionary Game Dynamics. Retrieved from https://wisc.pb.unizin.org/
@@ -840,7 +832,6 @@ Nowak, M. A., & May, R. M. (1993). The spatial dilemmas of evolution.
 International Journal of Bifurcation and Chaos, 03(01), 35–78. https://
 doi.org/10.1142/S0218127493000040
 
-
 Pinsonneault, A., & Kraemer, K. L. (1993). Survey Research Methodology in
 Management Information Systems: An Assessment. Journal of Management
 Information Systems, 10(2), 75–105. Retrieved from JSTOR.
@@ -855,18 +846,14 @@ Academy of Sciences, 108(48), 19193–19198. https://doi.org/10.1073/pnas.
 1108243108
 
 Santos, F. C., & Pacheco, J. M. (2005). Scale-Free Networks Provide a Unifying
-Framework for the Emergence of Cooperation. Physical Review Letters, 95(9),
-
-098104. https://doi.org/10.1103/PhysRevLett.95.098104
+Framework for the Emergence of Cooperation. Physical Review Letters, 95(9),098104. https://doi.org/10.1103/PhysRevLett.95.098104
 
 Santos, Francisco C., Santos, M. D., & Pacheco, J. M. (2008). Social diversity
 promotes the emergence of cooperation in public goods games. Nature,
 454(7201), 213–216. https://doi.org/10.1038/nature06940
 
 Schlag, K. H. (1998). Why Imitate, and If So, How?: A Boundedly Rational
-Approach to Multi-armed Bandits. Journal of Economic Theory, 78(1), 130–
-
-156. https://doi.org/10.1006/jeth.1997.2347
+Approach to Multi-armed Bandits. Journal of Economic Theory, 78(1), 130–156. https://doi.org/10.1006/jeth.1997.2347
 
 Schor, J. B., Fitzmaurice, C., Carfagna, L. B., Attwood-Charles, W., & Poteat, E. D.
 (2016). Paradoxes of openness and distinction in the sharing economy. Poetics,
@@ -878,14 +865,11 @@ Smith, J. Maynard, & Price, G. R. (1973). The Logic of Animal Conflict. Nature,
 Smith, John Maynard. (1998). The origin of altruism. Nature, 393(6686), 639.
 https://doi.org/10.1038/31383
 
-
 Strader, T. J., & Ramaswami, S. N. (2002). The value of seller trustworthiness in
-C2C online markets. Communications of the ACM, 45(12), 45–49. https://
-doi.org/10.1145/585597.585600
+C2C online markets. Communications of the ACM, 45(12), 45–49. https://doi.org/10.1145/585597.585600
 
 ter Huurne, M., Ronteltap, A., Corten, R., & Buskens, V. (2017). Antecedents of
-trust in the sharing economy: A systematic review. Journal of Consumer
-Behaviour, 16(6), 485–498. https://doi.org/10.1002/cb.1667
+trust in the sharing economy: A systematic review. Journal of Consumer Behaviour, 16(6), 485–498. https://doi.org/10.1002/cb.1667
 
 Tesfatsion, L. (2002). Agent-Based Computational Economics: Growing Economies
 From the Bottom Up. Artificial Life, 8(1), 55–82. https://doi.org/
@@ -915,7 +899,6 @@ sites/theyec/2015/02/10/the-future-of-the-sharing-economy-depends-on-trust/
 Watts, D. J. (1999). Networks, Dynamics, and the Small‐World Phenomenon.
 American Journal of Sociology, 105(2), 493–527. https://doi.org/
 10.1086/210318
-
 
 Watts, D. J., & Strogatz, S. H. (1998b). Collective dynamics of ‘small-world’
 networks. Nature, 393(6684), 440. https://doi.org/10.1038/30918
