@@ -358,7 +358,7 @@ completely random network. In all other cases, the algorithm will result in a ne
 with community structure, as can be detected with the conventional Girvan &
 Newman (2002) algorithm.
 
-
+![layouts](images/layouts.png)
 _Figure 1._ Example network layouts coloured by community with rewiring probability
 0.04 (left) and 0.4 (right) and average degree 4 (top) and 14 (bottom).
 
@@ -428,6 +428,10 @@ entirely gone. TP only forms a small risk to them, and they profit highly from t
 presence of each other. This balancing effect can be observed both at the community
 level or for the whole network at the same time when it is more connected.
 
+![balancing](images/balancing.png)
+_Figure 2._ An example run that clearly contains the balancing dynamic as described
+by Chica et al. (2017) (D = 8, P = 0.01, R = 27).
+
 Agents switching to an UP strategy could be interpreted as not partaking in
 the network’s sharing economy at all; they are not risking to provide their asset and
 pick a certain but low payoff. At the micro level, we can see why this is a neutral
@@ -437,9 +441,6 @@ UC’s than TC’s in order to still have a non-negative payoff. Another importa
 does not become too much more successful in the network than the other, while in
 ‘hostile’ situations TP has slightly higher average payoffs than TC, spreading slightly
 more quickly, thereby creating a more favourable context for TC.
-
-_Figure 2._ An example run that clearly contains the balancing dynamic as described
-by Chica et al. (2017) (D = 8, P = 0.01, R = 27).
 
 However, looking at some of the runs in detail, it is observed that below 27
 the success is dependent on complete absence of UC-players in the network. Because
@@ -464,10 +465,11 @@ community has an ‘outbreak’ of opportunism, depending on the other factors, 
 be ‘dealt with’ within the community, i.e, walk through the Balancing effect on a
 small scale, while not influencing the rest of the network.
 
+![separation](images/separation.png)
 _Figure 3._ An example network visualisation in which the effect of community
 separation is visible (D = 8, P = 0.05, R = 30, time-step = 250).
 
-
+![payoffs](images/payoffs.png)
 _Figure 4._ Observed average payoffs for a specific combination of degree D (y-axis)
 and rewiring P (x-axis), grouped in blocks by reward value (value in upper-left
 corner of each block). The reported numbers are the average payoffs of all agents
@@ -512,7 +514,6 @@ stopped somewhere either by ‘running into’ a group of UP’s, or by not bein
 spread to a node because it is highly successful in its trade with other trusting and
 trustworthy agents.
 
-
 The effect of rewiring seems to depend highly on the value of R, i.e., how
 ‘hard’ the game is. For low rewards, higher connectedness makes for quicker
 extinctions, which is the only way to success (if UC goes extinct) or failure (when TC
@@ -525,13 +526,10 @@ placement of strategies and the element of chance in the strategy selection. Thi
 should not be considered for real-world implications since this extinction-dependency
 might be very unrealistic.
 
+![low1](images/low1.png)
+![low2](images/low2.png)
 _Figure 5._ The two occurring courses of a simulation in the low reward-space (D = 16,
 P = 0.01, R = 24).
-
-
-_Figure 6._ The visible chaos in moderate reward values for three different amounts of
-rewiring from low to high (D = 16, P = 0.01 (top) 0.1 (middle) 1 (bottom), R = 24).
-
 
 For medium values of R, the situations become more chaotic, and rewiring
 seems to increase this chaos. The network does not go through the balancing effect as
@@ -552,6 +550,12 @@ communities, UC’s from a single community can repeatedly spread towards other
 communities. This, combined with the fact that communities started to thrive before
 UC went extinct, causes continuous fluctuations in strategies across the network.
 
+![medium1](images/medium1.png)
+![medium2](images/medium2.png)
+![medium3](images/medium3.png)
+_Figure 6._ The visible chaos in moderate reward values for three different amounts of
+rewiring from low to high (D = 16, P = 0.01 (top) 0.1 (middle) 1 (bottom), R = 24).
+
 In the situation of high rewards, the effect of rewiring becomes more
 predictable. The ‘easy’ nature of the game causes the payoffs gained by trusting and
 trustworthy behaviour to be the primary driver of success, without much need for the
@@ -563,7 +567,7 @@ distribution of strategies: sometimes a quick balancing dynamic, or a slower dec
 of opportunistic behaviour via higher payoffs gained by TP and TC if possible.
 Because the network does not have to do this as a whole, it is quicker.
 
-
+![high1](images/high1.png)
 _Figure 7._ A typical simulation run in with high rewards, with only a small balancing
 dynamic visible, and an equilibrium with UC agents present (D = 16, P = 0.1, R =
 36).
@@ -921,9 +925,9 @@ Airbnb, Where Every Stay is Above Average. SSRN Electronic Journal.
 https://doi.org/10.2139/ssrn.2554500
 
 
-```
-Appendix A
-```
+
+## Appendix A
+
 The structure of the simulation and some of the specificities are from the
 ABED-1pop framework (Izquierdo, Izquierdo, & Sandholm, 2018), published under
 the GNU General Public License. The network statistics and layout procedures are
@@ -935,12 +939,18 @@ Sandholm (in press). The code is specific to its application, and readability wa
 prioritised over flexibility. No warranty of merchantability or fitness for a particular
 purpose is implied.
 
-```
+
 The GUI is further explained below:
+
+![gui1](images/gui1.png)
+![gui2](images/gui2.png)
+_Figure 7._ An overview of the GUI developed and used for this paper’s simulations.
+
 A. The network settings. Only community structure is used in this paper, but
 some of NetLogo’s build in structures like the Small-World network are also
 available. With sliders, he number of nodes, the average degree and the
 probability for rewiring can be changed.
+
 B. Community settings. Including the number of communities and whether or
 not they should always be connected. This optional procedure makes sure all the
 communities have at least one link to another community, even when the
@@ -950,19 +960,16 @@ across variations of the other variables. This does, however, rewire additional
 edges, resulting in an increase in intra-community edges corresponding to an
 increase of the effective connectedness between 0.0002 and 0.004 for the presented
 experimental setup.
+
 C. Payoff settings. Reward can be varied with a slider, all other payoffs can
 also manually be adjusted in the 4x4 array.
-```
 
-_Figure 7._ An overview of the GUI developed and used for this paper’s simulations.
-
-```
 D. Network actions. Setup sets the initial network up in a basic layout, which
 can be further adjusted by ‘relaxing’ the network or manually by dragging and
 dropping nodes. The relax-network procedure makes nodes move according to
 their amount of edges and how far the connected nodes are away, creating an
 organic looking layout.
-```
+
 
 E. Simulation actions. To start the situation continuously or watch it step by
 step. A simulation can also be reset without changing the network. The ‘exit-
