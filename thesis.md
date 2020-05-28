@@ -1,12 +1,10 @@
 # A Networked Evolutionary Trust Game for the Sharing Economy
-
-
-#### Joost Gadellaa
-#### Utrecht University
-#### Bachelor Thesis
-#### Economics and Business Economics
-
-
+```
+Joost Gadellaa
+Utrecht University
+Bachelor Thesis
+Economics and Business Economics
+```
 
 ## Abstract
 
